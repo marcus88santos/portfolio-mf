@@ -1,0 +1,31 @@
+.habilidades__transicao-secao {
+	display: flex;
+	flex-direction: row;
+}
+.habilidades__transicao-secao__col1 {
+	background: radial-gradient(ellipse at 49.5% 90%, #eee 71%, #110e1b 72%);
+	padding-top: 3%;
+	width: 70%;
+}
+.habilidades__transicao-secao__col2 {
+	background: radial-gradient(ellipse at 49% 50%, #110e1b 80%, #eee 81%);
+	padding-top: 3%;
+	width: 30%;
+}
+.habilidades__titulo {
+	padding-bottom: 0;
+	position: relative;
+	top: max(-90px, -14vw);
+}
+.transition-wave {
+	background-color: #110e1b;
+	height: min(110px, 17vw);
+	/* margin-bottom: 20px; */
+}
+.transition-wave__svg {
+	height: 100%;
+	width: 100%;
+}
+.habilidades__conteudo {
+	background-color: #eee;
+}

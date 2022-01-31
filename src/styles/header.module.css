@@ -1,0 +1,31 @@
+.header {
+	background-color: #111;
+	color: whitesmoke;
+	display: flex;
+	flex: 0 !important;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.header > * {
+	display: flex;
+	padding-block: min(4%, 2rem);
+	padding-inline: 5%;
+}
+.header__menu_nav {
+	display: none;
+	list-style: none;
+}
+.header__menu_nav > li > * {
+	text-decoration: none;
+}
+.header__menu_bars {
+	font-size: 25px;
+}
+@media (min-width: 900px) {
+	.header__menu_nav {
+		display: flex;
+	}
+	.header__menu_bars {
+		display: none !important;
+	}
+}

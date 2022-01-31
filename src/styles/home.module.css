@@ -1,0 +1,71 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+.home > * {
+	padding-inline: 5%;
+}
+.home > span:first-child {
+	font-size: min(30px, 6vw);
+	padding-block: min(3%, 1.5em) 0;
+}
+.home__nome {
+	border-right: 3px solid;
+	display: flex;
+	font-size: min(50px, 8vw);
+	font-weight: bold;
+	max-width: fit-content;
+	overflow: hidden;
+	padding-block: 0;
+	padding-right: 0.2em;
+	margin-bottom: 5px;
+	transition: width 10s ease-in-out;
+	width: 0;
+	white-space: nowrap;
+}
+.typing_animation {
+	animation: blinkCursor 1s infinite normal,
+		typing 4s steps(60) 1s normal 1 both;
+}
+.home__foto {
+	background-color: darkred;
+	display: flex;
+	flex-direction: row;
+	height: 250px;
+	padding-inline: 5%;
+}
+.home__foto > * {
+	font-size: min(40px, 4vw);
+	font-weight: bold;
+	width: 50%;
+}
+.home__foto__eng {
+	display: table;
+	text-align: left;
+}
+.home__foto__eng > span {
+	display: table-cell;
+	vertical-align: middle;
+}
+.home__foto__dev {
+	display: table;
+	text-align: right;
+}
+.home__foto__dev > span {
+	display: table-cell;
+	vertical-align: middle;
+}
+@keyframes typing {
+	100% {
+		width: 100%;
+	}
+}
+@keyframes blinkCursor {
+	100% {
+		border-right: transparent;
+	}
+}
+@media (min-width: 900px) {
+	height: 450px;
+}

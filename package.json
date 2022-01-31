@@ -1,38 +1,20 @@
 {
-  "name": "portfolio-mf",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "portfolio-mf",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/marcus88santos/portfolio-mf.git",
+	"author": "marcUsfiLLipe <mf8santos@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"next": "^12.0.9",
+		"next-redux-wrapper": "^7.0.5",
+		"primeicons": "^5.0.0",
+		"primereact": "^7.2.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-redux": "^7.2.6"
+	},
+	"scripts": {
+		"dev": "next dev"
+	}
 }
