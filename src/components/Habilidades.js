@@ -3,9 +3,9 @@ import styles from '../styles/habilidades.module.css'
 export default function Habilidades () {
 	return (
 		<section className={styles.habilidades}>
-			<div className={styles.transition - wave}>
+			<div className={styles.transition_wave}>
 				<svg
-					className={styles.transition - wave__svg}
+					className={styles.transition_wave__svg}
 					viewBox='0 0 500 150'
 					preserveAspectRatio='none'>
 					<path
