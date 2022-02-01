@@ -17,15 +17,6 @@
 	text-align: center;
 	line-height: 120%;
 }
-@media (min-width: 900px) {
-	.footer {
-		flex-direction: row;
-		padding-block: 2%;
-	}
-	.footer > p {
-		padding-block: 0;
-	}
-}
 .footer__logos {
 	/* display: flex; */
 	/* flex-direction: row; */
@@ -35,4 +26,13 @@
 .footer__logos > a > img {
 	height: 2em;
 	padding-inline: 5%;
+}
+@media (min-width: 900px) {
+	.footer {
+		flex-direction: row;
+		padding-block: 2%;
+	}
+	.footer > p {
+		padding-block: 0;
+	}
 }

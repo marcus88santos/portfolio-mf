@@ -3,7 +3,7 @@
 	color: whitesmoke;
 	display: flex;
 	flex-direction: column;
-	padding-block: 1em;
+	padding-block: 0.5em;
 }
 .sobre_min__conteudo {
 	display: flex;
@@ -20,7 +20,6 @@
 	justify-content: space-around;
 }
 .sobre_min__foto__img {
-	background-color: tomato;
 	border-radius: 2em;
 	height: 180px; /* remover após adicionar a img */
 	width: 180px;
@@ -28,8 +27,8 @@
 }
 .sobre_min__texto {
 	color: rgba(245, 245, 245, 0.5);
-	font-size: 1.3em;
-	line-height: 2;
+	font-size: 1.2em;
+	line-height: 1.6;
 	padding-inline: 5%;
 	padding-top: 2%;
 	text-align: justify;
@@ -44,7 +43,7 @@
 .sobre_min__logos > a > img {
 	height: min(2em, 8vw);
 	margin-top: 4%;
-	padding-inline: 2%;
+	padding-inline: 3.5%;
 }
 @media (min-width: 900px) {
 	.sobre_min__conteudo {

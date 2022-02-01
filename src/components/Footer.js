@@ -36,7 +36,7 @@ export default function Footer () {
 			</div>
 			<p>
 				Copyright © 2021 marcUs fiLLipe santos • Engenheiro Civil •
-				Desenvolvedor Front-end | Portfolio Pessoal
+				Desenvolvedor Front-end | Portfólio Pessoal
 			</p>
 		</footer>
 	)

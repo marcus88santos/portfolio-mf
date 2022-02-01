@@ -13,27 +13,33 @@ export default function SobreMim () {
 			</h1>
 			<div className={styles.sobre_min__conteudo}>
 				<div className={styles.sobre_min__foto}>
-					<p className={styles.sobre_min__foto__img}>foto</p>
+					<img
+						className={styles.sobre_min__foto__img}
+						src={`https://www.github.com/marcus88santos.png`}></img>
 				</div>
 				<div className={styles.sobre_min__texto}>
 					<p>
-						Texto do sobretexto do sobretexto do sobretexto do sobretexto
-						do sobretexto do sobretexto do{' '}
-						<strong>texto destacado</strong> do sobretexto do sobretexto
-						do sobretexto do sobretexto do sobretexto do
+						Me formei há mais de 10 anos em{' '}
+						<strong>engenharia civil</strong>. Desde então, tenho atuado
+						com <strong>gerenciamento</strong> de obras, elaboração de
+						orçamentos e projetos de engenharia.
 						<br />
 						<br />
-						sobretexto do sobretexto do sobretexto do sobretexto do
-						sobretexto do sobretexto <strong>texto destacado</strong> do
-						sobretexto do sobretexto do sobretexto do sobretexto do
-						sobretexto do sobretexto do
+						Fiz <strong>pós-graduação em gestão de projetos</strong>.
+						Entre outras coisas, aprendi a{' '}
+						<strong>metodologia ágil</strong>, que uso inclusive no
+						planejamento do meu dia-a-dia.
 						<br />
 						<br />
-						sobretexto <strong>texto destacado</strong> do sobretexto do
-						sobretexto do sobretexto do sobretexto do sobretexto do
-						sobretexto do sobretexto do sobretexto do sobretexto do sobre
+						Sou o tipo de pessoa que gosta de planilhar as coisas. Comecei
+						a <strong>programar</strong> ainda em excel, com VBA.
+						<br />
+						<br />
+						Em 2021, concluí a formação em{' '}
+						<strong>desenvolvimento front-end</strong>. Atualmente, estou
+						à procura de oportunidade em qualquer área de atuação.
 					</p>
-					{/* <div className='sobre_min__logos'>
+					<div className={styles.sobre_min__logos}>
 						<a
 							href='http://linkedin.com/in/marcus88santos'
 							target='_blank'
@@ -58,7 +64,7 @@ export default function SobreMim () {
 							rel='noopener noreferrer'>
 							<img src={logo_whatsapp} alt='whatsapp' />
 						</a>
-					</div> */}
+					</div>
 				</div>
 			</div>
 		</section>

@@ -5,7 +5,11 @@ import 'primeicons/primeicons.css'
 export default function Header () {
 	return (
 		<header className={styles.header}>
-			<p>Logo</p>
+			<img
+				className={styles.header__logo}
+				src='/images/logo.png'
+				alt='logo'
+			/>
 			<ul className={styles.header__menu_nav}>
 				<li>
 					Home
