@@ -11,6 +11,7 @@ export default function Home () {
 				<div className={styles.home__foto__eng}>
 					<span>Engenheiro Civil</span>
 				</div>
+				foto
 				<div className={styles.home__foto__dev}>
 					<span>
 						&lt;Desenvolvedor
