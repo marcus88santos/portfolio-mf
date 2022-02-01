@@ -38,6 +38,32 @@ export default function Footer () {
 				Copyright © 2021 marcUs fiLLipe santos • Engenheiro Civil •
 				Desenvolvedor Front-end | Portfólio Pessoal
 			</p>
+			<div className={styles.footer__logos}>
+				<a
+					href='http://linkedin.com/in/marcus88santos'
+					target='_blank'
+					rel='noopener noreferrer'>
+					<img src={logo_linkedin} alt='linkedin' />
+				</a>
+				<a
+					href='http://github.com/marcus88santos'
+					target='_blank'
+					rel='noopener noreferrer'>
+					<img src={logo_github} alt='github' />
+				</a>
+				<a
+					href='http://facebook.com/mf8santos'
+					target='_blank'
+					rel='noopener noreferrer'>
+					<img src={logo_facebook} alt='facebook' />
+				</a>
+				<a
+					href='https://wa.me/+5579996510482'
+					target='_blank'
+					rel='noopener noreferrer'>
+					<img src={logo_whatsapp} alt='whatsapp' />
+				</a>
+			</div>
 		</footer>
 	)
 }

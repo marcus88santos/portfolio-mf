@@ -16,10 +16,12 @@ export default function Habilidades () {
 	const habilidadesDev = [
 		['HTML & CSS', 80],
 		['jQuery', 40],
-		['React.JS', 80],
-		['Next.JS', 50],
+		['React.js', 80],
+		['Redux, 70'],
+		['Next.js', 60],
+		['Vue.js', 70],
 		['Git', 60],
-		['Node.JS', 90],
+		['Node.js', 90],
 		['Package Manager', 90],
 	]
 	const perfil = [

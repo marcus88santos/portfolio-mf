@@ -13,19 +13,20 @@
 	align-items: center;
 	display: flex;
 	font-size: 0.9em;
+	line-height: 120%;
 	padding-top: 3%;
 	text-align: center;
-	line-height: 120%;
 }
 .footer__logos {
-	/* display: flex; */
-	/* flex-direction: row; */
 	flex: 1;
 	text-align: center;
 }
 .footer__logos > a > img {
 	height: 2em;
 	padding-inline: 5%;
+}
+.footer > .footer__logos:nth-of-type(2) {
+	display: none;
 }
 @media (min-width: 900px) {
 	.footer {
@@ -34,5 +35,14 @@
 	}
 	.footer > p {
 		padding-block: 0;
+		width: 60%;
+	}
+	.footer > .footer__logos:nth-of-type(1) {
+		display: none;
+	}
+	.footer > .footer__logos:nth-of-type(2) {
+		display: block;
+		text-align: center;
+		width: 40%;
 	}
 }

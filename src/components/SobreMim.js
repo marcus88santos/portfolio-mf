@@ -19,10 +19,9 @@ export default function SobreMim () {
 				</div>
 				<div className={styles.sobre_min__texto}>
 					<p>
-						Me formei há mais de 10 anos em{' '}
-						<strong>engenharia civil</strong>. Desde então, tenho atuado
-						com <strong>gerenciamento</strong> de obras, elaboração de
-						orçamentos e projetos de engenharia.
+						Sou <strong>engenheiro civil</strong> há mais de 10 anos.
+						Tenho atuado com <strong>gerenciamento</strong> de obras,
+						elaboração de orçamentos e projetos de engenharia.
 						<br />
 						<br />
 						Fiz <strong>pós-graduação em gestão de projetos</strong>.
@@ -37,7 +36,7 @@ export default function SobreMim () {
 						<br />
 						Em 2021, concluí a formação em{' '}
 						<strong>desenvolvimento front-end</strong>. Atualmente, estou
-						à procura de oportunidade em qualquer área de atuação.
+						à procura de oportunidade em ambas as áreas de atuação.
 					</p>
 					<div className={styles.sobre_min__logos}>
 						<a

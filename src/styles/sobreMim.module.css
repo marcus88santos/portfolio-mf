@@ -3,7 +3,7 @@
 	color: whitesmoke;
 	display: flex;
 	flex-direction: column;
-	padding-block: 0.5em;
+	padding-block: 1em 0.5em;
 }
 .sobre_min__conteudo {
 	display: flex;
